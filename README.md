@@ -1,6 +1,5 @@
 # Plum & Thread — Fabric to Fulfillment
 ### High-Precision Apparel Manufacturing Atelier &middot; Tiruppur, India
-**Superlabs Frontend Developer Hiring Challenge Submission**
 
 ---
 
@@ -293,5 +292,3 @@ In compliance with challenge guidelines:
 - **Human Curation & Verification**: Every mathematical calculation function, GST tax slab allocation, Zustand store action, PDF layout coordinate, responsive layout breakpoint, and Three.js shader parameter was reviewed, verified, tested, and fine-tuned for performance, accessibility, and zero-defect execution.
 
 ---
-
-*Engineered with precision for the Superlabs Frontend Challenge &middot; Plum & Thread (Tiruppur, India).*
