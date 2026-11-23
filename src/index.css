@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F4F0E8;
+  --color-ink: #171717;
+  --color-terracotta: #C66B4E;
+  --color-terracotta-dark: #A9553B;
+  --color-terracotta-light: #DF8467;
+  --color-olive: #747C66;
+  --color-olive-dark: #58604B;
+  --color-warm-grey: #D9D5CE;
+  --color-warm-grey-light: #EBE8E1;
+  --color-plum: #4A203B;
+  --color-plum-dark: #2F1224;
+
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-editorial: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-warm-grey);
+  }
+  
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F0E8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9D5CE;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C66B4E;
+}
+
+/* Textile weave background pattern for editorial texture */
+.bg-textile-pattern {
+  background-image: radial-gradient(#171717 0.75px, transparent 0.75px), radial-gradient(#747C66 0.75px, #F4F0E8 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  opacity: 0.04;
+}
+
+/* Grid guide lines for precision manufacturing aesthetic */
+.blueprint-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(23, 23, 23, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(23, 23, 23, 0.04) 1px, transparent 1px);
+}
